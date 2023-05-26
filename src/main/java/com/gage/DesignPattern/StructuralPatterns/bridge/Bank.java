@@ -1,14 +1,12 @@
 package com.gage.DesignPattern.StructuralPatterns.bridge;
 
 public abstract class Bank {
-    private Account account;
+    protected Account account;
 
     // 构造注入
-    Bank(Account account) {
+    public Bank(Account account) {
         this.account = account;
     }
 
-    public Account openAccount(){
-        return this.account;
-    }
+    abstract Account openAccount();
 }
