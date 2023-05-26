@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.strategy;
+package com.gage.DesignPattern.BehavioralPatterns.strategy;
 
 public class StrategyPattern {
     // 策略模式

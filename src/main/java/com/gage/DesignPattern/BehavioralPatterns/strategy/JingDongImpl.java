@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.strategy;
+package com.gage.DesignPattern.BehavioralPatterns.strategy;
 
 public class JingDongImpl implements ISite{
     @Override
