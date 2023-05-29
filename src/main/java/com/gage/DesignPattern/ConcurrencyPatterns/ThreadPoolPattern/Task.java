@@ -1,7 +1,7 @@
 package com.gage.DesignPattern.ConcurrencyPatterns.ThreadPoolPattern;
 
 public class Task implements Runnable {
-    private int TaskID;
+    private final int TaskID;
 
     public Task(int TaskID) {
         this.TaskID = TaskID;

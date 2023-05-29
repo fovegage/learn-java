@@ -4,7 +4,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 public class LockPattern {
-    private ReadWriteLock lock = new ReentrantReadWriteLock();
+    private final ReadWriteLock lock = new ReentrantReadWriteLock();
     private int value = 0;
 
     public int getValue() {
@@ -26,7 +26,7 @@ public class LockPattern {
     }
 
     static class WriteThread extends Thread {
-        private LockPattern data;
+        private final LockPattern data;
 
         public WriteThread(LockPattern data) {
             this.data = data;
