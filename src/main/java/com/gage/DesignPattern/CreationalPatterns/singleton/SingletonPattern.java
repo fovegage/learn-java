@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.CreationalPatterns.Singleton;
+package com.gage.DesignPattern.CreationalPatterns.singleton;
 
 public class SingletonPattern {
 

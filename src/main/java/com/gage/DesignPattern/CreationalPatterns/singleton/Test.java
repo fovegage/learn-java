@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.CreationalPatterns.Singleton;
+package com.gage.DesignPattern.CreationalPatterns.singleton;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

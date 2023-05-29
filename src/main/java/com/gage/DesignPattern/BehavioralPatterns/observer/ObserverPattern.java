@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.BehavioralPatterns.Observer;
+package com.gage.DesignPattern.BehavioralPatterns.observer;
 
 public class ObserverPattern {
     public static void main(String[] args) {
