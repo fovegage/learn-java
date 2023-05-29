@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.CreationalPatterns.ProducerConsumerPattern;
+package com.gage.DesignPattern.ConcurrencyPatterns.ProducerConsumerPattern;
 
 public class ProducerConsumerPattern {
 
