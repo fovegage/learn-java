@@ -1,4 +1,4 @@
-package com.gage.base;
+package com.gage.base.oop;
 
 public class VisitAuthority {
     public int publicField;
