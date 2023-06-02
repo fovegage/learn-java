@@ -4,7 +4,7 @@ import org.apache.commons.io.monitor.FileAlterationListenerAdaptor;
 
 import java.io.File;
 
-public class CustomMonitor extends FileAlterationListenerAdaptor {
+public class CustomListener extends FileAlterationListenerAdaptor {
     // 只需关注特定的就行
     @Override
     public void onFileCreate(File file) {

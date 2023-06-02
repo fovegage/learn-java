@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.BehavioralPatterns.observer;
+package com.gage.DesignPattern.BehavioralPatterns.observer.RawImpl;
 
 import java.util.ArrayList;
 import java.util.List;

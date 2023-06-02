@@ -14,7 +14,7 @@ public class DefaultAdapter {
         FileAlterationObserver fileAlterationObserver = new FileAlterationObserver(file);
 //        fileAlterationObserver.addListener(new FileListenerTest());
         // 适配器引入
-        fileAlterationObserver.addListener(new CustomMonitor());
+        fileAlterationObserver.addListener(new CustomListener());
 
         // 启动监听
         FileAlterationMonitor fileAlterationMonitor = new FileAlterationMonitor(1000);

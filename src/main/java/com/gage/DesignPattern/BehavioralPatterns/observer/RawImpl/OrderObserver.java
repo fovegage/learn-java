@@ -1,4 +1,4 @@
-package com.gage.DesignPattern.BehavioralPatterns.observer;
+package com.gage.DesignPattern.BehavioralPatterns.observer.RawImpl;
 
 public class OrderObserver extends Observer {
     public OrderObserver(Subject subject) {
