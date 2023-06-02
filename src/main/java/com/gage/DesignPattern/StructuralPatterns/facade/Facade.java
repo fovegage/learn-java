@@ -11,4 +11,9 @@ public class Facade {
             System.out.println(userService.getInfo());
         }
     }
+
+    // 也可以在门面类里进行统一的调用
+    public String getUser() {
+        return userService.getInfo();
+    }
 }
