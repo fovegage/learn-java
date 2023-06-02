@@ -1,4 +1,4 @@
-package com.gage.study.Base;
+package com.gage.study;
 
 import org.junit.Test;
 
