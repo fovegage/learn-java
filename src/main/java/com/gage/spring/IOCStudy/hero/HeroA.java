@@ -1,6 +1,6 @@
-package com.gage.IOCStudy.hero;
+package com.gage.spring.IOCStudy.hero;
 
-import com.gage.IOCStudy.IC;
+import com.gage.spring.IOCStudy.IC;
 
 // 作用于类  进行配置
 // 这个地方被注册到容器中  接着使用 autowired 进行调用

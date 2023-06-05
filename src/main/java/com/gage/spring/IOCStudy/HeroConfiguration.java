@@ -1,6 +1,6 @@
-package com.gage.IOCStudy;
+package com.gage.spring.IOCStudy;
 
-import com.gage.IOCStudy.hero.HeroB;
+import com.gage.spring.IOCStudy.hero.HeroB;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.context.annotation.Bean;

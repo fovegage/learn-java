@@ -1,7 +1,7 @@
 package com.gage.api.v1;
 
 
-import com.gage.IOCStudy.IC;
+import com.gage.spring.IOCStudy.IC;
 import com.gage.dto.PersonDTO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;

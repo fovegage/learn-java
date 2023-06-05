@@ -1,6 +1,6 @@
-package com.gage.IOCStudy.hero;
+package com.gage.spring.IOCStudy.hero;
 
-import com.gage.IOCStudy.IC;
+import com.gage.spring.IOCStudy.IC;
 
 //  继承 IC 容器
 public class HeroC implements IC {

@@ -1,4 +1,4 @@
-package com.gage.IOCStudy.condition;
+package com.gage.spring.IOCStudy.condition;
 
 import org.springframework.context.annotation.Condition;
 import org.springframework.context.annotation.ConditionContext;
